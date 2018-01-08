@@ -1,0 +1,385 @@
+# Print with format
+Example print ('mensage {}'.format(variable))
+
+# See primative type
+print(type(variable))
+
+# See if is numeric
+print(variable.isnumeric())
+
+# See is alphabetic
+print(variable.isalpha())
+
+# See is alphabeticnumeric
+print(variable.isalnum())
+
+# See is Upper
+print(variable.isupper())
+
+## Import Modules (more import in python.org) ##
+import math;
+or
+from math import sqrt,floor; 
+from math import *;
+
+print('Conteudo do modulo:', dir(math));
+
+## Read and manipulate Strings ##
+
+# Manipulate
+str[] (all string)
+str[5:13] (start index 5 to index 12)
+str[:5] (start index 0 to index 4)
+str[9:] (start index 9 to end of string)
+str[9:21:2] (start index 9 to index 21 jump in 2 index)
+str[9::2] (start index 9 to end of string jump in 2 index)
+
+# Size
+len(str) (size of string)
+str.count('character') (count character ex str.count('a'))
+str.count('character', 0, 13) (count character start index 0 to index 12)
+str.find('string') (search in string a 'string' and return index beign of the string to find, if return -1 not found)
+'String'in str (exist 'string' in str return true or false)
+
+# String Transformation
+str.replace('String','String to replace')
+str.upper()
+str.lower()
+str.capitalize()
+str.title()
+str.strip() (remove blank space in beign of string and end of string)
+str.split() (split string with new index and string have in new index)
+
+'-'.join(str) (create a new string with character before of join)
+
+# Condicions
+
+## IF ##
+
+if var1 == var2:
+
+else:
+
+if var1 == var2:
+
+elif var2 == var3:
+
+elif var4 == var5:
+
+else:
+
+# Cicles 1
+
+## FOR ##
+
+# Increment
+for i in range(0, 6): (repete 6x)
+
+for i in range(1, 6): (repete 5x, dont count last)
+
+# Decrement
+for i in range(6, 0, -1): 
+
+# Increment with Jump
+for i in range(6, 0, 2): (jump 2 and 2)
+
+## WHILE ##
+c = 1
+
+while c < 10
+	print(c)
+	c += 1
+print('Fim')
+
+## WHILE WITH FLAG ##
+
+While True:
+
+if X == 0:
+	break
+if X == 5:
+	continue (jump number 5)
+
+## ARRAYS / LISTAS ## 
+
+moedas = [5, 10, 20, 50, 1, 2]
+
+for i in range(len(moedas)):
+	print(moedas[i])
+
+# Sort Array
+    for i in range(0, len(arrayOfNumbers)):
+        for j in range(0, len(arrayOfNumbers)):
+            if arrayOfNumbers[i] < arrayOfNumbers[j]:
+                temp = arrayOfNumbers[i];
+                arrayOfNumbers[i] = arrayOfNumbers[j];
+                arrayOfNumbers[j] = temp;
+
+lista = ['Eu sou uma string!', 10, 10.5, True, ['A', 'B', 'C']]
+
+lista[0] = 'Eu continuo a ser uma string na mesma!'
+
+# Manipulate
+
+lista[5:13] (start index 5 to index 12)
+lista[:5] (start index 0 to index 4)
+lista[9:] (start index 9 to end of string)
+lista[9:21:2] (start index 9 to index 21 jump in 2 index)
+lista[9::2] (start index 9 to end of string jump in 2 index)
+
+## FUNCOES ##
+
+def dadosPessoais():
+	print('Nome: Miguel Teles');
+	print('Idade: 22);
+	print('Nacionalidade: Portuguesa');
+
+# Call function
+dadosPessoais();
+
+# Funcoes with Return
+
+def adicao():
+	resultado = 2 + 2;
+
+	return resultado;
+
+# Funcoes with Argumentos
+
+def dadosPessoais(nome, idade, nacionalidade):
+	print('Nome:', nome);
+	print('Idade:' idade');
+	print('Nacionalidade:' nacionalidade);
+
+dadosPessoais('Maria Martins', 34, 'Norte-Coreana');
+
+# Funcoes with Argumentos Padrao
+
+def estadoDaAposta(estado = True):
+	if estado:
+		print('A aposta está aberta!');
+	else:
+		print('A aposta está fechada!');
+
+estadoDaAposta();
+
+# Funcoes with Argumentos Chave
+
+def imprimirLetras(a, b, c):
+	print(a);
+	print(b);
+	print(c);
+
+imprimirLetras(c = 1, a = 2, b = 3);
+
+# Funcoes with Argumentos Flexiveis
+
+def imprimirArgumentos(*argumentos):
+	for argumento in argumentos:
+		print('Argumento:', argumento);
+	
+imprimirArgumentos(1, 1.5, 'Eu sou uma string', True, ['ABC', '123', 'A1B2C3']);
+
+## VARIAVEIS ##
+
+# Locais
+
+def mudarAcesso():
+	acesso = 'Local';
+	print('Acesso no interior da funcao:', acesso);
+
+# Globais
+
+acess = 'Global' 
+
+def mudarAcesso():
+	global acesso = 'Local';
+	print('Acesso no interior da funcao:', acesso);
+
+mudarAcesso();
+print('Acesso no exterior da funcao:', acesso);
+
+## DICIONARIOS ##
+(Composto por chave + valor)
+
+idades = {'Miguel Teles': 23, 'Maria Celeste': 37, 'Pedro Henrique': 80, 'Rita Moreira': 68};
+
+print(idades); # Imprime o dicionário todo
+
+print(idades.items()); # Imprime os items 
+print(idades.keys()); # Imprime as chaves
+print(idades.value()); # # Imprime os valores
+
+# Remover Item
+del idades['Maria Celeste'];
+
+# Apagar Tudo
+idades.clear();
+
+## Import Modules for data and hour ##
+
+from calendar import *; # data
+from time import *; # hour
+
+print('Calendar:', calendar(2017));
+print('Month:', month(2017, 7));
+print('Time:', time());
+print('Local Time:', localtime(time()));
+print('Local Time:', asctime(localtime(time())));
+
+## Read and Write Files ##
+
+# Write File
+
+writeFile = open('FileTest.txt', 'w');
+writeFile.write('Estou a escrever na 1º linha deste ficheiro!\n');
+writeFile.write('Agora estou a escrever na 2º linha deste ficheiro!\n');
+writeFile.close();
+
+# Read File
+
+readFile = open('FileTest.txt', 'r');
+print(readFile.read());
+readFile.close();
+
+## EXCEPTIONS ##
+
+try:
+	readFile = open('FileTest.txt', 'r');
+	print(readFile.read());
+except IOError:
+	print('O ficheiro nao existe e/ou não é possivel ler o seu conteudo!');
+else:
+	print('O ficheiro foi lido com sucesso!');
+	readfile.close();
+
+## Class's and Objects ##
+
+class Inimigo:
+	vida = 5;
+
+	def ataque(self):
+		print('Eu fui atacado e perdi uma vida!');
+		self.vida -= 1;
+
+	def verificarVida(self):
+		if self.vida <= 0:
+			print('Eu estou morto porque não tenho mais vidas!');
+		else:
+			print('Eu ainda estou em combate e tenho', self.vida, 'vidas');
+
+# Instanciar o objecto
+
+inimigo1 = Inimigo();
+inimigo2 = Inimigo();
+
+# Ataque ao Inimigo
+
+inimigo1.ataque();
+inimigo1.ataque();
+inimigo1.ataque();
+
+# Verificar vida do Inimigo
+
+inimigo1.verficarVida();
+
+inimigo2.verficarVida();
+
+## init ##
+
+# Constructor
+
+class Pessoa:
+	def __init__(self, primeiroNome, ultimoNome, idade):
+		self.primeiroNome = primeiroNome;
+		self.ultimoNome = ultimoNome;
+		self.idade = idade;
+
+	def informacao(self):
+		print('Nome:', self.primeiroNome, self.ultimoNome);
+		print('Idade:', self.idade);
+
+	def verificarEntrada(self):
+		if self.idade >= 18:
+			print('Esta pessoa pode entrar no local porque tem mais de 18 anos!');
+		else:
+			print('Esta pessoa não pode entrar no local porque tem menos de 18 anos!')
+
+pessoa1 = Pessoa('Nelson', 'Pereira', 21);
+pessoa2 = Pessoa('Marta', 'Antunes', 17);
+
+pessoa1.informacao();
+pessoa1.verificarEntrada();
+
+pessoa2.informacao();
+pessoa2.verficiarEntrada();
+
+## HERANCA ##
+
+class Pai:
+
+	ultimoNome = 'Silva';
+
+	def comidaPreferida(self):
+		print('A minha comida preferida é bacalhau!');
+
+class Filho(Pai):
+	primeiroNome = 'Nelson';
+	idade = 22;
+
+	def informacao(self):
+		print('Nome:', self.primeiroNome, self.ultimoNome);
+		print('Idade:', self.idade);
+
+pessoa = Filho();
+pessoa.informacao();
+pessoa.comidaPreferida();
+
+## HERANCA MULTIPLA ##
+
+class Pai:
+	altura = 'Entre 180 e 190 cm';
+	corDosOlhos = 'Azuis';
+
+class Mae:
+	def corPreferida(self):
+		print('Cor preferida é Lilás!');
+
+class Filho(Pai, Mae):
+	def informacao(self):
+		print('Nome: Luis de Matos');
+		print('Idade: 22');
+		print('Altura:', self.altura);
+		print('Cor dos Olhos:', self.corDosOlhos);
+
+
+pessoa = Filho();
+pessoa.informacao();
+pessoa.corPreferida();
+
+
+## LAMBDA ##
+
+# Funcao Anonima
+
+adicao = (Lambda a, b, c : a + b + c);
+
+print('Resultado da adição:', adicao(25, 30, 45));
+
+
+## MAP ##
+
+x = [2, 3, 4];
+y = [12, 13, 14];
+
+print(list(map(pow, x, y)));
+
+## BIT TO BIT ##
+
+x = 60; # 00111100
+y = 13; # 00001101
+
+print('Resultado do operador &:', x & y); # 12 -> 00001100
+print('Resultado do operador |:', x | y); # 61 -> 00111101
+print('Resultado do operador <<:', x << y); # 240 -> 11110000
+print('Resultado do operador >>:', x >> y); # 15 -> 00001111

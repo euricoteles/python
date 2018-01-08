@@ -1,0 +1,137 @@
+Desafios:
+
+1 - Crie um script que leia o nome da pessoa e mostre uma mensagem de boas-vindas de acordo com o nome introduzido.
+
+2- Crie um script que leia o dia, o mes, o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada (Nasceu no dia dd do mm no aaaa).
+
+3- Crie um script que leia dois numeros e mostre a soma deles.
+
+4 - Crie um script que leia algo do teclado e mostre o seu tipo primitivo e todas as informações possiveis sobre o que foi lido.
+
+5 - Crie um script que leia um numero Inteiro e mostre na tela o seu sucessor e o seu antecessor.
+
+6 - Crie um script que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
+7 - Crie um script leia duas notas de um aluno, calcule e mostre a sua média.
+
+8 - Crie um script que leia um valor em metros e o converta em centimetros e milimetros.
+
+9 - Crie um script que leia um numero inteiro e mostre a sua tabuada.
+
+10 - Crie um script que leia quanto dinheiro uma pessoa tem na carteira e converter em dolares.
+
+11 - Crie um script que leia a largura e altura de uma parede e calcule a sua area e a quantidade de tinta necessaria para pintá-la. Sabendo que cada litro de tinta pinta uma área de 2m² 
+
+12 - Crie um script que leia um salário e mostre o seu novo salário com 15% de aumento.
+
+13 - Crie um script que leia um numero float qualquer e mostre a sua porção inteira. (ex. 6,127 parte inteira = 6).
+
+14 - Crie um script que leia o comprimento do cateto oposto e do cateto adjacente de um triangulo e calcule a hipotenusa.
+
+15 - Crie um script que leia um angulo e mostre o valor do seno, do cosseno e tangente desse angulo.
+
+16 - Crie um script leia o nome de 4 alunos e sortei o nome de um deles.
+
+17 - Crie um script leia o nome de 4 alunos e mostre a ordem dos nomes da apresentação um deles. 
+
+18 - Crie um script que abra e reproduza o áudio de um arquivo em MP3.
+
+19 - Crie um script que leia o nome de uma pessoa e mostre o nome com todas as letras maiuscualas, minusculas, quantidade de letras e quantidade de letras do primeiro nome.
+
+20 - Crie um script que leia um numero de 0 a 9999 e mostre cada um dos digitos separados. (exemplo unidades, dezenas, centenas e milhares)
+
+21 - Crie um script que leia o nome de uma cidade e retorna se a palavra começa ou não com o nome "Santo".
+
+22 - Crie um script que leia um nome e se existe "Silva" no nome.
+
+23 - Crie um script que leia uma frase e retorne quantas vezes aparece a letra 'A', em que posição aparece a primeira vez e que posição aparece a ultima vez.
+
+24 - Crie um script leia o nome completo de uma pessoa e mostre de seguida o primeiro e o ultimo nome separados.
+
+25 - Crie um script que faça o computador em um número inteiro entre 0 e 5 e peça para o utilizador tentar descobrir qual foi o número escolhido pelo computador. Mostre se o utilizador acertou ou não.
+
+26 - Crie um script leia a velocidade de uma carro. Caso o carro passe a velocidade de 80km/h deve mostrar a mensagem que foi multado e o preço da multa 7€ por cada Km acima do limite. Caso não se verifique mostra uma mensagem de boa viagem.
+
+27 - Crie um script que leia um numero inteiro e mostre na tela se ele é par ou impar.
+
+28 - Crie um script pergunta a distancia em Km e calcule o preço da viagem, custando 0,50€ por Km até 200Km e 0,45€ para viagens mais longas.
+
+29 - Crie um script que leia um ano qualquer e mostre se o ano é bissexto ou não.
+
+30 - Crie um script leia três numeros e diga qual o menor e o maior.
+
+31 - Crie um script que leia o salario de um funcionário e calcule o valor do seu aumento. Para salarios superiores a 1.250,00€ o aumento é de 10% para os salarios abaixo ou iguais o aumento é de 10%.
+
+32 - Crie um script que leia trÊs retas e diga se elas podem formar um triangulo.
+
+33 - Crie um script para aprovar um emprestimo bancario. Deve perguntar o valor da casa, o salario da pessoa e em quantos anos vai pagar a casa. Calcule o valor mensal da prestação sabendo que ela não pode exceder os 30% do salario. Caso execeda deve imprimir uma mensagem a negar o emprestimo.
+
+34 - Crie um script que leia um numero inteiro e permita ao utilizador escolher a base de conversão : 1 - Binário, 2 - octal, 3 - hexadecimal.
+
+35 - Crie um script que leia dois numero inteiros e compare-os, mostrando no ecra uma mensagem dizendo qual dos dois é maior ou menor. Caso sejam iguais mostre essa informação.
+
+36 - Crie um script que leia o ano de nascimento de um jovem e de acordo com sua idade, informe se ainda vai se alistar ao serviço militar, se já pode ou se já passou a idade. 
+
+37 - Crie um script leia duas notas de um aluno e calcule a sua média, mostrando uma mensagem com a sua média atingida abaixo de 5.0 - Reprovado, 5 e 9.4 - Recuperação e 9.5 a 20 - Aprovado. 
+
+38 - Crie um script leia o ano de nascimento de um atleta e mostre a sua categoria de acordo com a sua idade. Até 9 anos - Benjamim, 14 anos - Infantil, 19 anos - Junior, 20 - Sénior acima Master
+
+39 - Crie um script que leia 3 lados de um triangulo e mostre uma mensagem a dizer se é equulátero (lados todos iguais), isoceles(dois lados iguais), escaleno(lados diferentes).
+
+40 - Crie um script que leia o peso e a altura de uma pessoa e calcule o seu IMC e mostre o status conforme a tabela de IMC.
+
+41 - Crie um script que leia o valor a ser pago de um produto e aplique um desconto conforme o tipo de pagamento (10% dinheiro, 5% cartão, prestações - preço normal)
+
+42 - Crie um script que jogue pedra, papel ou tesoura.
+
+43 - Crie um script que faça uma contagem regressiva para o fogo de artificio indo do 10 até 0 com espera de 1 segundo.
+
+44 - Crie um script que mostre todos os numeros pares entre o intervalo 1 e 50.
+
+45 - Crie um script que calcule a soma entre todos os numeros impares que sao multiplos de tres e que se encontram no intervalor de 1 ate 500.
+
+46 - Crie um script que leia um numero e mostre a sua tabuada.
+
+47 - Crie um script que leia seis numeros e mostre a soma daqueles que forem pares.
+
+48 - Crie um script que leia um primeiro termo e a razao de uma progressão aritemetrica e no fim mostre os 10 termos dessa progressão.
+
+49 - Crie um script que leia um numero inteiro e diga se é numero primo. 
+
+50 - Crie um script que leia uma frase e diga se ela é um palindromo.
+
+51 - Crie um script que leia o ano de nascimento de sete pessoas e no final mostre quantas pessoas inda não atingiram a maioridade e quantas já são maiores.
+
+52 - Crie um script que o peso de cinco pessoas e diga qual o maior peso e o menor peso lido.
+
+53 - Crie um script que leia o nome, a idade e o sexo de 4 pessoas. No fim mostre qual a média da idade das 4 pessoas, qual o nome da pessoa mais velha e quantas mulheres tem menos de 20 anos.
+
+54 - Crie um script que leia o sexo de uma pessoa, mas só aceite os valores 'M' e 'F'. Caso o esteja errado pedir novamente até ser um valor correto.
+
+55 - Crie um script que o computador vai 'pensar' em um numero entre 0 e 10. Só para quando o jogador acertar e no fim mostra quantas tentativas foram necessárias para vencer.
+
+56 - Crie um script que leia dois valores e mostre um menu (1-Somar,2-Multiplicar,3-Maior,4-Novos números,5-Sair do programa). No fim deve realizar a operação pedida.
+
+57 - Crie um script que leia um numero qualquer e mostre o seu fatorial.
+
+58 - Crie um script que lendo o primeiro termo e a razão de uma PA, mostre os 10 primeiros termos da progressão usando a estrutura while.
+
+58 - Crie um script que pergunte para o utilizador se ele quer mostrar mais alguns termos. O programa termina quando o utilizador disser que querer mostrar 0 termos.
+
+59 - Crie um script que leia um numero n inteiro qualquer e mostre os n primeiro elementos de uma Sequencia de Fibonacci.
+
+60 - Crie um script que leia vários numeros inteiros. O programa só para quando o utilizador digitar o valor 999. No fim mostre quantos numeros foram lidos e a soma entre eles não contado com o 999.
+
+61 - Crie um script que leia vários numeros introduzidos pelo utilizador. No final deve apresentar a média entre todos os valores lidos e qual foi o maior e o menor valor lido. O programa para terminar deve perguntar ao utilizador.
+
+62 - Crie um script que leia vários numeros inteiros. O programa só para quando o utilizador digitar o valor 999. No fim mostre quantos numeros foram lidos e a soma entre eles não contado com o 999.
+
+63 - Crie um script que mostre a tabuada de vários numeros um de cada vez, para cada valor lido. O programa será interrompido quando for introduzido o número lido for negativo.
+
+64 - Crie um script que jogue par ou impar com o computador. O jogo só será interrompido quando jogador perder mostrando o total de vitórias consecutivas que ele o jogador conquistou no fim do jogo.
+
+65 - Crie um script que leia a idade e o sexo de vários pessoas. A cada pessoa lida o programa deve perguntar ao utilizador se quer ou não continuar. No fim deve mostrar: a) quantas pessoas tem mais de 18 anos, b) quantos homem foram lidos, c) quantas mulheres tem menos de 20 anos.
+
+66 - Crie um script que leia o nome e o preço de vários produtos. O programa deve perguntar se o utilizador vai continuar. No final mostre: a) o total gasto na compra, b) quantos produtos custaram mais de 1000€, c) qual o nome do produto mais barato.
+
+67 - Crie um script que simule o fincionamento de uma caixa de multibanco. No inicio pergunta ao utilizador qual o valor a levantar e o programa vai informar quantas notas de cada valor serão entregues. Considere que a caixa contém notas de 5€ e 10€, 20€.
