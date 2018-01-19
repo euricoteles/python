@@ -23,8 +23,6 @@ def fillArray():
     for i in range(0, len(arrayOfNumbers)):
         arrayOfNumbers[i] = int(input('Introduza um valor:'));
 
-
-
     return arrayOfNumbers;
 
 
